@@ -13,13 +13,13 @@ This repository provides an interface to analyze datasets by constructing a freq
 
 ## Installation:
 
-1) Clone this repository
-2) Navigate to the repository directory: `cd wordCountJP`
-3) Build the docker image: `docker build -t wordCountJP .`
-4) Run the docker container on the port 8080: 'docker run -p 8080:8080 wordCountJP' (setup your port forwarding options if necessary)
-5) Open the interface in your browser by navigating to http://localhost:8080/
-6) Upload a `.txt` file encoded in Shift-JIS, containing only one column with phrases on each row. Be sure to delete the empty rows!
-7) A file containing the frequency of each word will be downloaded automatically when the analysis is finished.
+1. Clone this repository
+2. Navigate to the repository directory: `cd wordCountJP`
+3. Build the docker image: `docker build -t wordCountJP .`
+4. Run the docker container on the port 8080: 'docker run -p 8080:8080 wordCountJP' (setup your port forwarding options if necessary)
+5. Open the interface in your browser by navigating to http://localhost:8080/
+6. Upload a `.txt` file encoded in Shift-JIS, containing only one column with phrases on each row. Be sure to delete the empty rows!
+7. A file containing the frequency of each word will be downloaded automatically when the analysis is finished.
 
 #LICENSE
 
