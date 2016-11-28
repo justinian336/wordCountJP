@@ -1,8 +1,8 @@
 # wordCountJP
 
-Japanese language is different to English language in the sense that there is no natural separation between words. There are no spaces between words, and punctuation signs are less utilized. The fact that a phrase in Japanese can easily include characters in four different alphabets (romaji, hiragana, katakana and kanji) makes word separation even more complicated.
+Japanese language is different to English in the sense that there is no natural separation between words such as spaces, and punctuation signs are less utilized. The fact that a phrase in Japanese can normally include characters in four different alphabets (romaji, hiragana, katakana and kanji) makes word separation even more complicated.
 
-This repository provides an interface to analyze datasets by constructing a frequency tables for the words contained in a column of strings. The backend uses the [**jProcessing**](https://github.com/kevincobain2000/jProcessing) library to tokenize the phrases provided in an input file, and [**Pandas**](http://pandas.pydata.org/) in order to construct the frequency table. 
+This repository provides an interface to analyze datasets by constructing a frequency tables for the words contained in a column of strings. The [**jProcessing**](https://github.com/kevincobain2000/jProcessing) library is used to tokenize the phrases provided in an input file, and Python [**Pandas**](http://pandas.pydata.org/) in order to construct the frequency table. 
 
 ## The following libraries are employed:
 
